@@ -13,11 +13,11 @@ def kbig(nums, u):
 
             if abs(r1 - nums[w]) < z:
                 z = abs(r1 - nums[w])
-                el = nums[w]
+                ql = nums[w]
 
         z=nums[0]
 
-        r1 = el
+        r1 = ql
         nums.remove(r1)
 
         if y+2 == u:
